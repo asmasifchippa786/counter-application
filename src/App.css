@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  height: 100%;
+}
+.lit{
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+.dark{
+  background: rgb(0, 0, 0);
+  color: rgb(248, 248, 248);
+  font-family: sans-serif;
+}
+.header nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 24px;
+}
+.mainPart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+}
+.screen{
+  font-size: 90px;
+  padding: 10px;
+  transition: 1s all ease-in;
+}
+.lit .btn button{
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 30px;
+  border-left: 5px solid rgb(0, 0, 0);
+  border-right: 5px solid rgb(0, 0, 0);
+  padding: 10px 30px 10px 30px;
+  transition: 1s all ease-in;
+  cursor: pointer;
+}
+.lit .btn button:hover{
+  transition: 0.5s all ease-in;
+  background: black;
+  color: white;
+}
+.dark .btn button{
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  outline: none;
+  padding: 10px 30px 10px 30px;
+  transition: 1s all ease-in;
+  cursor: pointer;
+}
+.dark .btn button:hover{
+  transition: 0.5s all ease-in;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.screen p{
+  font-size: 20px;
+}
+.plus{
+margin-right: 20px;
+}
